@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FC172D21CF8A0CD0014937F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC172D11CF8A0CD0014937F /* UIKit.framework */; };
+		0FC172D41CF8A0CD0014937F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC172D31CF8A0CD0014937F /* Foundation.framework */; };
+		0FC172D61CF8A0CD0014937F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC172D51CF8A0CD0014937F /* CoreGraphics.framework */; };
+		0FC172DC1CF8A0CD0014937F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FC172DA1CF8A0CD0014937F /* InfoPlist.strings */; };
+		0FC172DE1CF8A0CD0014937F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC172DD1CF8A0CD0014937F /* main.m */; };
+		0FC172E21CF8A0CD0014937F /* proyectoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC172E11CF8A0CD0014937F /* proyectoAppDelegate.m */; };
+		0FC172E51CF8A0CD0014937F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FC172E31CF8A0CD0014937F /* MainWindow.xib */; };
+		0FC172E81CF8A0CD0014937F /* proyectoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC172E71CF8A0CD0014937F /* proyectoViewController.m */; };
+		0FC172EB1CF8A0CD0014937F /* proyectoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FC172E91CF8A0CD0014937F /* proyectoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FC172CD1CF8A0CD0014937F /* proyecto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = proyecto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FC172D11CF8A0CD0014937F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0FC172D31CF8A0CD0014937F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0FC172D51CF8A0CD0014937F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0FC172D91CF8A0CD0014937F /* proyecto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "proyecto-Info.plist"; sourceTree = "<group>"; };
+		0FC172DB1CF8A0CD0014937F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0FC172DD1CF8A0CD0014937F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0FC172DF1CF8A0CD0014937F /* proyecto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "proyecto-Prefix.pch"; sourceTree = "<group>"; };
+		0FC172E01CF8A0CD0014937F /* proyectoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = proyectoAppDelegate.h; sourceTree = "<group>"; };
+		0FC172E11CF8A0CD0014937F /* proyectoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = proyectoAppDelegate.m; sourceTree = "<group>"; };
+		0FC172E41CF8A0CD0014937F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		0FC172E61CF8A0CD0014937F /* proyectoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = proyectoViewController.h; sourceTree = "<group>"; };
+		0FC172E71CF8A0CD0014937F /* proyectoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = proyectoViewController.m; sourceTree = "<group>"; };
+		0FC172EA1CF8A0CD0014937F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/proyectoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FC172CA1CF8A0CD0014937F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FC172D21CF8A0CD0014937F /* UIKit.framework in Frameworks */,
+				0FC172D41CF8A0CD0014937F /* Foundation.framework in Frameworks */,
+				0FC172D61CF8A0CD0014937F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FC172C21CF8A0CD0014937F = {
+			isa = PBXGroup;
+			children = (
+				0FC172D71CF8A0CD0014937F /* proyecto */,
+				0FC172D01CF8A0CD0014937F /* Frameworks */,
+				0FC172CE1CF8A0CD0014937F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FC172CE1CF8A0CD0014937F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FC172CD1CF8A0CD0014937F /* proyecto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FC172D01CF8A0CD0014937F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FC172D11CF8A0CD0014937F /* UIKit.framework */,
+				0FC172D31CF8A0CD0014937F /* Foundation.framework */,
+				0FC172D51CF8A0CD0014937F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0FC172D71CF8A0CD0014937F /* proyecto */ = {
+			isa = PBXGroup;
+			children = (
+				0FC172E01CF8A0CD0014937F /* proyectoAppDelegate.h */,
+				0FC172E11CF8A0CD0014937F /* proyectoAppDelegate.m */,
+				0FC172E31CF8A0CD0014937F /* MainWindow.xib */,
+				0FC172E61CF8A0CD0014937F /* proyectoViewController.h */,
+				0FC172E71CF8A0CD0014937F /* proyectoViewController.m */,
+				0FC172E91CF8A0CD0014937F /* proyectoViewController.xib */,
+				0FC172D81CF8A0CD0014937F /* Supporting Files */,
+			);
+			path = proyecto;
+			sourceTree = "<group>";
+		};
+		0FC172D81CF8A0CD0014937F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FC172D91CF8A0CD0014937F /* proyecto-Info.plist */,
+				0FC172DA1CF8A0CD0014937F /* InfoPlist.strings */,
+				0FC172DD1CF8A0CD0014937F /* main.m */,
+				0FC172DF1CF8A0CD0014937F /* proyecto-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FC172CC1CF8A0CD0014937F /* proyecto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FC172EE1CF8A0CD0014937F /* Build configuration list for PBXNativeTarget "proyecto" */;
+			buildPhases = (
+				0FC172C91CF8A0CD0014937F /* Sources */,
+				0FC172CA1CF8A0CD0014937F /* Frameworks */,
+				0FC172CB1CF8A0CD0014937F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = proyecto;
+			productName = proyecto;
+			productReference = 0FC172CD1CF8A0CD0014937F /* proyecto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FC172C41CF8A0CD0014937F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 0FC172C71CF8A0CD0014937F /* Build configuration list for PBXProject "proyecto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0FC172C21CF8A0CD0014937F;
+			productRefGroup = 0FC172CE1CF8A0CD0014937F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FC172CC1CF8A0CD0014937F /* proyecto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FC172CB1CF8A0CD0014937F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FC172DC1CF8A0CD0014937F /* InfoPlist.strings in Resources */,
+				0FC172E51CF8A0CD0014937F /* MainWindow.xib in Resources */,
+				0FC172EB1CF8A0CD0014937F /* proyectoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FC172C91CF8A0CD0014937F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FC172DE1CF8A0CD0014937F /* main.m in Sources */,
+				0FC172E21CF8A0CD0014937F /* proyectoAppDelegate.m in Sources */,
+				0FC172E81CF8A0CD0014937F /* proyectoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0FC172DA1CF8A0CD0014937F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FC172DB1CF8A0CD0014937F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0FC172E31CF8A0CD0014937F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FC172E41CF8A0CD0014937F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		0FC172E91CF8A0CD0014937F /* proyectoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FC172EA1CF8A0CD0014937F /* en */,
+			);
+			name = proyectoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FC172EC1CF8A0CD0014937F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0FC172ED1CF8A0CD0014937F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FC172EF1CF8A0CD0014937F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "proyecto/proyecto-Prefix.pch";
+				INFOPLIST_FILE = "proyecto/proyecto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0FC172F01CF8A0CD0014937F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "proyecto/proyecto-Prefix.pch";
+				INFOPLIST_FILE = "proyecto/proyecto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FC172C71CF8A0CD0014937F /* Build configuration list for PBXProject "proyecto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FC172EC1CF8A0CD0014937F /* Debug */,
+				0FC172ED1CF8A0CD0014937F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FC172EE1CF8A0CD0014937F /* Build configuration list for PBXNativeTarget "proyecto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FC172EF1CF8A0CD0014937F /* Debug */,
+				0FC172F01CF8A0CD0014937F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FC172C41CF8A0CD0014937F /* Project object */;
+}
